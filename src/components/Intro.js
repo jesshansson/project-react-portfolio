@@ -7,7 +7,7 @@ export const Intro = () => {
     <OuterWrapper grey>
       <InnerWrapper>
         <PIntro><Line /><Dot />  Coming from a background within biology and environmental
-      science, I have now taken on the challange to become a frontend developer.
+      science, I have now taken on the challenge to become a frontend developer.
       Combining my experience from project and business development,
       I hope to grow a career within programming and contribute to the progress of the
       tech world.

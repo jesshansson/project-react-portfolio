@@ -17,7 +17,8 @@ const OtherProjects = () => {
   const filteredProjects = projects.filter((project) => (project.name !== 'project-business-site') && (project.name !== 'express-api-frontend')
   && (project.name !== 'project-react-portfolio') && (project.name !== 'project-happy-thoughts') && (project.name !== 'project-survey')
   && (project.name !== 'jessicahansson') && (project.name !== 'project-portfolio') && (project.name !== 'project-todos') && (project.name !== 'unit-tests')
-  && (project.name !== 'final-project') && (project.name !== 'project-auth') && (project.name !== 'project-movies') && (project.name !== 'project-movies'))
+  && (project.name !== 'final-project') && (project.name !== 'project-auth') && (project.name !== 'project-movies') && (project.name !== 'project-movies')
+  && (project.name !== 'exercise-recipe') && (project.name !== 'exercise-hyllning') && (project.name !== 'flexbox-bootcamp') && (project.name !== 'caffe-retro'))
 
   return (
     <OuterWrapper grey>

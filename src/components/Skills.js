@@ -9,9 +9,7 @@ const Skills = () => {
       <InnerWrapper>
         <SectionHeading>SKILLS</SectionHeading>
         <SkillsWrapper>
-
           <SkillsList>
-            <SkillsTitles>CODE</SkillsTitles>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -21,7 +19,6 @@ const Skills = () => {
             </ul>
           </SkillsList>
           <SkillsList>
-            <SkillsTitles>CODE</SkillsTitles>
             <ul>
               <li>Node.js</li>
               <li>Express.js</li>
@@ -31,7 +28,6 @@ const Skills = () => {
             </ul>
           </SkillsList>
           <SkillsList>
-            <SkillsTitles>TOOLBOX</SkillsTitles>
             <ul>
               <li>Visual Studio Code</li>
               <li>Figma</li>
@@ -62,10 +58,6 @@ const SkillsWrapper = styled.div`
     }
 `
 
-const SkillsTitles = styled.h3`
-    font-weight: 700;
-    padding: 7px;
-`
 const SkillsList = styled.li`
     font-weight: 400;
     line-height: 29px;
